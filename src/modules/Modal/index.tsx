@@ -3,8 +3,8 @@ import { Modal } from "@mantine/core";
 
 import { useStore } from "../../store/context";
 
-import { Card } from "../../components/Card";
 import { Context } from "../../components/Context";
+import { Cards } from "../../components/Cards";
 
 export const ContextModalModule = () => {
   const [opened, { open, close }] = useDisclosure(false)
@@ -43,7 +43,7 @@ export const ContextModalModule = () => {
         </Modal.Body>
       </Modal>
 
-      <Card 
+      <Cards 
         open={open}
       />
     </>
