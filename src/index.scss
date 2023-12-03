@@ -1,0 +1,13 @@
+:root {
+  box-sizing: border-box;
+  font-family: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 500;
+}
